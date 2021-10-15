@@ -24,10 +24,10 @@ module:
   filter: 0
   gt_tools: 0
   help: 0
-  hg_reader: 0
   history: 0
   image: 0
   link: 0
+  link_attributes: 0
   link_target: 0
   media: 0
   media_library: 0
