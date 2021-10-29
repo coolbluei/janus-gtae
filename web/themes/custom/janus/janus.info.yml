@@ -1,0 +1,9 @@
+name: Janus
+type: theme
+description: 'Janus Custom GT Subtheme'
+package: Other
+core: 8.x
+libraries:
+  - janus/global-styling
+ 
+base theme: gt
