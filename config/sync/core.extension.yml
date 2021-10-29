@@ -1,12 +1,12 @@
 module:
   automated_cron: 0
   big_pipe: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
-  comment: 0
   config: 0
   contact: 0
   contextual: 0
@@ -14,6 +14,8 @@ module:
   datetime: 0
   datetime_range: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -26,11 +28,14 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   link_attributes: 0
   link_target: 0
   media: 0
   media_library: 0
+  menu_link_attributes: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
@@ -43,6 +48,9 @@ module:
   redirect: 0
   search: 0
   shortcut: 0
+  slick: 0
+  slick_ui: 0
+  slick_views: 0
   stage_file_proxy: 0
   system: 0
   taxonomy: 0
