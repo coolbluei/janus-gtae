@@ -1,0 +1,20 @@
+.main-container {
+  .bio-teaser {
+    .image-field img {
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.6em;
+      color: $brand_secondary;
+
+      a {
+        color: $brand_secondary;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

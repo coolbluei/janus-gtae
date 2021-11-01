@@ -4,7 +4,28 @@ h5 {
 html {
   font-size: 16px; }
 
+body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .h3, body .h4, body .h5, body .h6 {
+  font-family: var(--font-roboto-condensed);
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: #8888ff; }
+
 #brandhead {
-  background-color: #8888ff; }
+  background: #8888ff; }
+  #brandhead .bg-gold-grad {
+    background: none; }
+
+.main-container .bio-teaser .image-field img {
+  margin-bottom: 1rem; }
+
+.main-container .bio-teaser h2 {
+  font-size: 1.6em;
+  color: #8888ff; }
+  .main-container .bio-teaser h2 a {
+    color: #8888ff;
+    text-decoration: none; }
+    .main-container .bio-teaser h2 a:hover {
+      text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

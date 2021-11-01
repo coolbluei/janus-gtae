@@ -1,3 +1,7 @@
 #brandhead {
-  background-color: $brand_secondary;
+  background: $brand_secondary;
+
+  .bg-gold-grad {
+    background: none;
+  }
 }

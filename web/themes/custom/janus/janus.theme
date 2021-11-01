@@ -38,7 +38,7 @@ function janus_page_attachments_alter(array &$page) {
  * Implements hook_preprocess_page() for page.html.twig.
  */
 function janus_preprocess_page(array &$variables) {
-
+  $variables['janus_path'] = '/' . drupal_get_path('theme','janus') . '/images' .'/';
 }
 
 /**

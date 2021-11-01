@@ -7,3 +7,9 @@ global-styling:
     - core/jquery_once
     - core/drupal
     - core/drupalSettings
+# Views Grid.
+views-grid:
+  version: "1.0.x"
+  css:
+    base:
+      templates/views_grid/css/views-grid.css: { }

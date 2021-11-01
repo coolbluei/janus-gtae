@@ -6,3 +6,13 @@ h5 {
 html {
   font-size: 16px;
 }
+
+body {
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    color: $brand_secondary;
+  }
+}
