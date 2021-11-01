@@ -1,10 +1,4 @@
 /* Views Grid */
-.views-col {
-  border-right: 1px solid var(--gt-warm-grey);
-}
-.views-col:last-child {
-  border-right: 1px solid transparent;
-}
 .views-view-grid .views-col {
   float: left;
   padding: 1rem;
@@ -25,11 +19,6 @@
   font-size: 1rem;
   line-height: 1.4;
 }
-.views-element-container.contextual-region {
-  color: var(--gt-black) !important;
-  line-height: 1;
-
-}
 
 @media (max-width: 576px) {
   .views-view-grid .col-1,
@@ -42,8 +31,5 @@
     flex: 0 0 100%!important;
     max-width: 100%!important;
   }
-  .views-col {
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid var(--gt-warm-grey);
-  }
+
 }
