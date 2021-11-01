@@ -37,4 +37,4 @@ regions:
   other: 'Other / Placeholder region'
 
 libraries:
-  - janus/global-styling
+  - 'janus/global-styling'
