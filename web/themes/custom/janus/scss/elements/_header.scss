@@ -1,7 +1,12 @@
-#brandhead {
-  background: $brand_secondary;
+body {
+  #brandhead {
+    background: $brand_secondary;
 
-  .bg-gold-grad {
-    background: none;
+    .bg-gold-grad {
+      background: none;
+    }
+    #gt-logo {
+      height: 10rem;
+    }
   }
 }

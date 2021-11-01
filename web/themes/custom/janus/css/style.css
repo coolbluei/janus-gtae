@@ -9,21 +9,23 @@ body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .
   font-weight: 600;
   line-height: 1;
   margin-bottom: 0.5rem;
-  color: #8888ff; }
+  color: #404040; }
 
-#brandhead {
-  background: #8888ff; }
-  #brandhead .bg-gold-grad {
+body #brandhead {
+  background: #404040; }
+  body #brandhead .bg-gold-grad {
     background: none; }
+  body #brandhead #gt-logo {
+    height: 10rem; }
 
 .main-container .bio-teaser .image-field img {
   margin-bottom: 1rem; }
 
 .main-container .bio-teaser h2 {
   font-size: 1.6em;
-  color: #8888ff; }
+  color: #404040; }
   .main-container .bio-teaser h2 a {
-    color: #8888ff;
+    color: #404040;
     text-decoration: none; }
     .main-container .bio-teaser h2 a:hover {
       text-decoration: underline; }
