@@ -16,9 +16,9 @@ contact_zip_code: '30030'
 contact_telephone: '5555050505'
 contact_map_url: ''
 cas_login: '1'
-title_one_url: ''
-title_two_url: ''
-hide_breadcrumb: 0
+title_one_url: 'https://janus.lando.site'
+title_two_url: 'https://janus.lando.site'
+hide_breadcrumb: 1
 super_footer: 1
 footer_01_size: '12'
 footer_02_size: '3'

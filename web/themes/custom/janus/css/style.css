@@ -11,13 +11,6 @@ body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .
   margin-bottom: 0.5rem;
   color: #404040; }
 
-body #brandhead {
-  background: #404040; }
-  body #brandhead .bg-gold-grad {
-    background: none; }
-  body #brandhead #gt-logo {
-    height: 10rem; }
-
 .main-container .bio-teaser .image-field img {
   margin-bottom: 1rem; }
 
