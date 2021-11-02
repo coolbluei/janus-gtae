@@ -11,6 +11,32 @@ body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .
   margin-bottom: 0.5rem;
   color: #404040; }
 
+body #gt-logo {
+  height: 1.625rem;
+  margin: 0.7rem 0; }
+
+#janushead {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#1e4982));
+  background: -webkit-linear-gradient(black, #1e4982);
+  background: -o-linear-gradient(black, #1e4982);
+  background: linear-gradient(black, #1e4982); }
+  #janushead .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  #janushead .janus-logo-container img {
+    height: 9em;
+    padding: 1em 1em 1em 0; }
+  #janushead .janus-header-text {
+    padding-top: 1em; }
+  #janushead .site-name {
+    font-size: 4em;
+    color: #e0e0e0; }
+  #janushead .site-subname {
+    font-size: 1.5em;
+    color: #888888; }
+
 .main-container .bio-teaser .image-field img {
   margin-bottom: 1rem; }
 
