@@ -16,21 +16,12 @@ dependencies:
     - node.type.biography
   module:
     - image
-    - text
     - user
 id: node.biography.teaser
 targetEntityType: node
 bundle: biography
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 2
-    settings:
-      trim_length: 100
-    third_party_settings: {  }
-    region: content
   field_image:
     type: image
     weight: 0
@@ -49,6 +40,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  body: true
   field_grouping: true
   field_home_institution: true
   field_home_website: true

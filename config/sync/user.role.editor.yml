@@ -8,6 +8,7 @@ weight: 3
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access contextual links'
   - 'access files overview'
   - 'access in-place editing'
   - 'access media overview'
@@ -99,6 +100,7 @@ permissions:
   - 'update media'
   - 'use advanced search'
   - 'use menu link attributes'
+  - 'use text format full_html'
   - 'view all media revisions'
   - 'view article revisions'
   - 'view biography revisions'
