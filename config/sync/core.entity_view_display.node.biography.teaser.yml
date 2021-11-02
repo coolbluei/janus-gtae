@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.biography.field_position
     - field.field.node.biography.field_social_links
     - field.field.node.biography.field_sort_name
+    - image.style.bio_image
     - node.type.biography
   module:
     - image
@@ -36,8 +37,8 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      image_style: bio_image
+      image_link: content
     third_party_settings: {  }
   field_position:
     type: string

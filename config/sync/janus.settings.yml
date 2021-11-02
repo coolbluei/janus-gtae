@@ -19,8 +19,8 @@ cas_login: '1'
 title_one_url: ''
 title_two_url: ''
 hide_breadcrumb: 0
-super_footer: 0
-footer_01_size: '3'
+super_footer: 1
+footer_01_size: '12'
 footer_02_size: '3'
 footer_03_size: '3'
 footer_04_size: '3'

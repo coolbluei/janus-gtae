@@ -6,8 +6,8 @@ dependencies:
     - janus
 id: tabs
 theme: janus
-region: content
-weight: 0
+region: before_content
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:
