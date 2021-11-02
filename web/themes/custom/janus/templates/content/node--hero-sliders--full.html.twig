@@ -1,0 +1,11 @@
+<article{{ attributes }}>
+  <div{{ content_attributes }}>
+    {{ title_prefix }}
+    {% if not page %}
+      <h2{{ title_attributes }}>{{ label }}</h2>
+    {% endif %}
+    {{ title_suffix }}
+    {{ content|without('field_media_image') }}
+  </div>
+  <img class="flexslider-image-object" src="{{ image_url }}">
+</article>

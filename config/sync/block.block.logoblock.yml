@@ -10,15 +10,15 @@ dependencies:
     - janus
 id: logoblock
 theme: janus
-region: before_footer
-weight: 0
+region: footer_01
+weight: -2
 provider: null
 plugin: 'block_content:0ab6f5e1-0b0d-4ff0-a8f6-55815466395a'
 settings:
   id: 'block_content:0ab6f5e1-0b0d-4ff0-a8f6-55815466395a'
   label: 'Logo Block'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
