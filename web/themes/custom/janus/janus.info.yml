@@ -24,6 +24,7 @@ regions:
   sidebar_first: 'Sidebar left'
   sidebar_second: 'Sidebar right'
   before_footer: 'Footer top / Must be utilized with the superfooter option'
+  logo_footer: 'Logo Footer'
   footer_01: 'Footer first'
   footer_02: 'Footer second'
   footer_03: 'Footer third'

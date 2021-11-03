@@ -51,6 +51,9 @@ body #gt-logo {
 #bottom-header .navbar {
   margin: 1em 0; }
 
+.logo-footer {
+  background-color: #262626; }
+
 .main-container .bio-teaser .image-field img {
   margin-bottom: 1rem; }
 
