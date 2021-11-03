@@ -1,6 +1,12 @@
 #gt-banner {
   .flexslider {
     border: none;
+
+    .flex-direction-nav a:before {
+      font-size: 32px;
+      color: white;
+      text-shadow: 0 0 4px #808080cc;
+    }
   }
   ul.slides li {
     height: 70vh;
@@ -28,7 +34,14 @@
       z-index: 10;
       width: 100%;
 
+      .text-background {
+        background-color: #5d5d5da6;
+        padding: 1em;
+        border-radius: 5px;
+        color: #ffffff;
+      }
       h2 {
+        color: #ffffff;
       }
 
       .m-1 {

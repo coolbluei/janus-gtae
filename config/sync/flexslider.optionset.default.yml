@@ -14,7 +14,7 @@ options:
   easing: swing
   smoothHeight: false
   reverse: false
-  slideshowSpeed: 7000
+  slideshowSpeed: 2000
   animationLoop: true
   randomize: false
   startAt: 0
@@ -44,6 +44,6 @@ options:
   pauseText: Pause
   playText: Play
   pauseOnAction: true
-  pauseOnHover: false
+  pauseOnHover: true
   controlsContainer: .flex-control-nav-container
   manualControls: ''
