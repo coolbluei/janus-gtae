@@ -103,9 +103,9 @@ article.biography .field--name-field-position {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: 5em;
     margin-bottom: 5em;
-    z-index: 10; }
+    z-index: 10;
+    width: 100%; }
     #gt-banner article.hero_sliders .text-content .m-1 {
       margin: 0 !important; }
     #gt-banner article.hero_sliders .text-content .field--name-field-subtitle {
