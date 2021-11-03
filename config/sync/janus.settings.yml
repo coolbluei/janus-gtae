@@ -19,7 +19,7 @@ cas_login: '1'
 title_one_url: 'https://janus.lando.site'
 title_two_url: 'https://janus.lando.site'
 hide_breadcrumb: 1
-super_footer: 1
+super_footer: 0
 footer_01_size: '12'
 footer_02_size: '3'
 footer_03_size: '3'

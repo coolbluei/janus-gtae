@@ -10,8 +10,8 @@ dependencies:
     - janus
 id: logoblock
 theme: janus
-region: footer_01
-weight: -2
+region: logo_footer
+weight: -4
 provider: null
 plugin: 'block_content:0ab6f5e1-0b0d-4ff0-a8f6-55815466395a'
 settings:
