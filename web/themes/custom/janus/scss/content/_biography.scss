@@ -18,3 +18,30 @@
     }
   }
 }
+body .main-container .image-block a.btn {
+  display: block;
+  padding: 0.2em;
+  font-size: 0.9rem;
+}
+
+article.biography {
+  .image-block {
+    position: relative;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 4px #ccc;
+    padding: 1em;
+    width: 300px;
+
+    .text-fields {
+      div {
+        margin: 0.5em 0.25rem;
+      }
+    }
+  }
+  .field--name-field-position {
+    font-weight: bold;
+  }
+}
+

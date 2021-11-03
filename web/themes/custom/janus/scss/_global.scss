@@ -15,4 +15,8 @@ body {
     margin-bottom: 0.5rem;
     color: $brand_secondary;
   }
+
+  #gt-page-title h1.js-quickedit-page-title.page-title {
+    color: $brand_secondary !important;
+  }
 }

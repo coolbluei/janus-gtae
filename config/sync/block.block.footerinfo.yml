@@ -1,9 +1,9 @@
-uuid: ed0e8964-7c3e-43dc-b3ba-c9a68b57adf1
+uuid: 2d89f166-389c-4a24-848d-cbc3ed193cf8
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:1b9f7ed4-9230-4316-ae82-f917168e9737'
+    - 'block_content:basic:1e4f9526-2982-4d9f-bcbc-6f55c40dbca6'
   module:
     - block_content
   theme:
@@ -13,10 +13,10 @@ theme: janus
 region: footer_07
 weight: 0
 provider: null
-plugin: 'block_content:1b9f7ed4-9230-4316-ae82-f917168e9737'
+plugin: 'block_content:1e4f9526-2982-4d9f-bcbc-6f55c40dbca6'
 settings:
-  id: 'block_content:1b9f7ed4-9230-4316-ae82-f917168e9737'
-  label: 'Footer info'
+  id: 'block_content:1e4f9526-2982-4d9f-bcbc-6f55c40dbca6'
+  label: 'Footer Info'
   provider: block_content
   label_display: visible
   status: true
