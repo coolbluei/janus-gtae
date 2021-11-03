@@ -44,6 +44,9 @@ body #gt-logo {
   height: 2.25em;
   -webkit-background-size: contain;
           background-size: contain; }
+  .navbar-toggler:not(.collapsed) {
+    -webkit-background-size: contain;
+            background-size: contain; }
 
 #bottom-header .navbar {
   margin: 1em 0; }
@@ -66,14 +69,16 @@ body .main-container .image-block a.btn {
   font-size: 0.9rem; }
 
 article.biography .image-block {
-  position: relative;
-  float: right;
-  margin-left: 2em;
-  margin-bottom: 1em;
+  padding: 1rem;
+  margin: 0 auto 1em;
+  width: 332px;
   -webkit-box-shadow: 2px 2px 4px #ccc;
-          box-shadow: 2px 2px 4px #ccc;
-  padding: 1em;
-  width: 300px; }
+          box-shadow: 2px 2px 4px #ccc; }
+  @media (min-width: 752px) {
+    article.biography .image-block {
+      position: relative;
+      float: right;
+      margin-left: 2em; } }
   article.biography .image-block .text-fields div {
     margin: 0.5em 0.25rem; }
 

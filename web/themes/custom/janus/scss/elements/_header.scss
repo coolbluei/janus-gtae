@@ -32,6 +32,11 @@ body #gt-logo {
 .navbar-toggler {
   height: 2.25em;
   background-size: contain;
+  &:not(.collapsed) {
+    background-size: contain;
+  }
+
+
 }
 
 #bottom-header .navbar {

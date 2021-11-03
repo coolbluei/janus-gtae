@@ -26,13 +26,18 @@ body .main-container .image-block a.btn {
 
 article.biography {
   .image-block {
-    position: relative;
-    float: right;
-    margin-left: 2em;
-    margin-bottom: 1em;
+    padding: 1rem;
+    margin: 0 auto 1em;
+    width: 332px;
     box-shadow: 2px 2px 4px #ccc;
-    padding: 1em;
-    width: 300px;
+
+    @media (min-width: 752px) {
+      position: relative;
+      float: right;
+      margin-left: 2em;
+
+
+    }
 
     .text-fields {
       div {
@@ -44,4 +49,5 @@ article.biography {
     font-weight: bold;
   }
 }
+
 
