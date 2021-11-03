@@ -6,7 +6,9 @@ features:
 logo:
   use_default: 1
 favicon:
-  use_default: 1
+  use_default: 0
+  path: 'public://favicon.ico'
+  mimetype: image/vnd.microsoft.icon
 contact_title: 'Footer Title'
 contact_address: 'Footer Address Line One'
 contact_address_2: ''
