@@ -7,14 +7,14 @@ _core:
 id: default
 label: Default
 options:
-  animation: fade
+  animation: slide
   animationSpeed: 600
   direction: horizontal
   slideshow: true
   easing: swing
   smoothHeight: false
   reverse: false
-  slideshowSpeed: 2000
+  slideshowSpeed: 4000
   animationLoop: true
   randomize: false
   startAt: 0
