@@ -7,7 +7,7 @@
 
 use Drupal\safe_field_getter\SafeFieldGetter;
 
-define ("BIO_PROFILE_DEFAULT_IMAGE", 'silhouette.jpeg');
+define ("BIO_PROFILE_DEFAULT_IMAGE", 'bio-placeholder.jpeg');
 
 /**
  * Implements hook_preprocess_HOOK() for html.html.twig.
