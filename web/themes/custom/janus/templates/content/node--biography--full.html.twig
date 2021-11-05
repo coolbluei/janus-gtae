@@ -74,7 +74,9 @@
 
   <div{{ content_attributes }}>
     <div class="image-block">
-      {{ content.field_image }}
+      <div class="field_image">
+        <img src="{{ bio_image }}" alt="{{ title }}" width="300" height="386" typeof="foaf:Image">
+      </div>
       <div class="text-fields">
         {{ content.field_position }}
         {{ content.field_home_institution }}
