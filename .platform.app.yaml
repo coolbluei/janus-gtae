@@ -141,7 +141,7 @@ web:
                     expires: 2w
 
 crons:
-    # Run Drupal's cron tasks every 19 minutes.
+    # Run Drupal's cron tasks every 6 hours.
     drupal:
-        spec: '*/19 * * * *'
+        spec: '* 4,10,16,20 * * *'
         cmd: 'cd web ; drush core-cron'
