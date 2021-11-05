@@ -38,7 +38,13 @@ body #gt-logo {
     color: #dab30f; }
   #janushead .site-subname {
     font-size: 1.5em;
-    color: #e5e5e5; }
+    color: #e5e5e5;
+    line-height: 1.2; }
+    #janushead .site-subname strong {
+      color: #dab30f; }
+    #janushead .site-subname em {
+      font-style: unset;
+      font-size: 0.7em; }
 
 .navbar-toggler {
   height: 2.25em;
