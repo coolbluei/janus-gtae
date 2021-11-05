@@ -118,7 +118,12 @@ function janus_preprocess_node(array &$variables) {
           $variables['bio_image'] = SafeFieldGetter::getUrlFromFile($file, 'bio_image');
         }
       }
-
+      break;
+    case 'article' :
+      // Add formatted created date for display.
+      $date_formatter = \Drupal::service('date.formatter');
+      $created = $node->getCreatedTime();
+      $variables['created_date'] = $date_formatter->format($created, 'article_date');
       break;
   }
 

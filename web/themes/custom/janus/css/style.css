@@ -137,4 +137,8 @@ article.biography .field--name-field-position {
     #gt-banner article.hero_sliders .text-content .field--name-field-subtitle {
       margin-bottom: 1em; }
 
+article.article .created-date {
+  margin-bottom: 1em;
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
