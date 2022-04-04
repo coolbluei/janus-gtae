@@ -13,6 +13,8 @@ permissions:
   - 'access in-place editing'
   - 'access media overview'
   - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer blocks'
   - 'administer menu'
   - 'administer pathauto'
   - 'administer search'
