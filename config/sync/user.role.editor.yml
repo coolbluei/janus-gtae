@@ -1,7 +1,39 @@
 uuid: 299e2d46-64e1-4308-8404-136d0c192802
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.article
+    - node.type.biography
+    - node.type.hero_sliders
+    - node.type.landing_page
+    - node.type.page
+    - node.type.publications
+    - node.type.seminar
+    - taxonomy.vocabulary.personal_grouping
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - contextual
+    - file
+    - filter
+    - media
+    - menu_link_attributes
+    - node
+    - paragraphs
+    - path
+    - pathauto
+    - quickedit
+    - search
+    - system
+    - taxonomy
+    - toolbar
 id: editor
 label: Editor
 weight: 3

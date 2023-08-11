@@ -25,6 +25,13 @@ settings:
             - '-'
             - RemoveFormat
         -
+          name: Alignment
+          items:
+            - JustifyBlock
+            - JustifyCenter
+            - JustifyLeft
+            - JustifyRight
+        -
           name: Linking
           items:
             - DrupalLink
@@ -45,16 +52,15 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
             - ShowBlocks
             - Source
   plugins:
-    language:
-      language_list: un
     stylescombo:
-      styles: ''
+      styles: 'a.btn.btn-primary|Button Link'
 image_upload:
   status: true
   scheme: public

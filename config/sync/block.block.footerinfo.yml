@@ -17,8 +17,8 @@ plugin: 'block_content:1e4f9526-2982-4d9f-bcbc-6f55c40dbca6'
 settings:
   id: 'block_content:1e4f9526-2982-4d9f-bcbc-6f55c40dbca6'
   label: 'Contact the JANUS Team'
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

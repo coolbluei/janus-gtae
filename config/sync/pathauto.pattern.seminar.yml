@@ -10,13 +10,13 @@ type: 'canonical_entities:node'
 pattern: '/seminar/[node:title]'
 selection_criteria:
   cff6ac33-834e-4971-b2ce-803b8952de91:
-    id: node_type
-    bundles:
-      seminar: seminar
+    id: 'entity_bundle:node'
     negate: false
+    uuid: cff6ac33-834e-4971-b2ce-803b8952de91
     context_mapping:
       node: node
-    uuid: cff6ac33-834e-4971-b2ce-803b8952de91
+    bundles:
+      seminar: seminar
 selection_logic: and
 weight: -5
 relationships: {  }

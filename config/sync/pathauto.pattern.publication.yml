@@ -10,13 +10,13 @@ type: 'canonical_entities:node'
 pattern: '/publication/[node:title]'
 selection_criteria:
   9787b33c-3b7d-4095-bcd8-8fc120303719:
-    id: node_type
-    bundles:
-      publications: publications
+    id: 'entity_bundle:node'
     negate: false
+    uuid: 9787b33c-3b7d-4095-bcd8-8fc120303719
     context_mapping:
       node: node
-    uuid: 9787b33c-3b7d-4095-bcd8-8fc120303719
+    bundles:
+      publications: publications
 selection_logic: and
 weight: -5
 relationships: {  }

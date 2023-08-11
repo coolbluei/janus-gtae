@@ -10,13 +10,13 @@ type: 'canonical_entities:node'
 pattern: '/bio/[node:title]'
 selection_criteria:
   8abc67ee-bc7d-43cb-adca-c3f067d78557:
-    id: node_type
-    bundles:
-      biography: biography
+    id: 'entity_bundle:node'
     negate: false
+    uuid: 8abc67ee-bc7d-43cb-adca-c3f067d78557
     context_mapping:
       node: node
-    uuid: 8abc67ee-bc7d-43cb-adca-c3f067d78557
+    bundles:
+      biography: biography
 selection_logic: and
 weight: -5
 relationships: {  }
