@@ -1,11 +1,11 @@
 name: janus
 recipe: drupal8
 config:
-  php: '7.4'
+  php: '8.1'
   via: 'nginx'
   webroot: './web'
   database: 'mysql:5.7'
-  composer_version: '2.0.7'
+  composer_version: '2'
   xdebug: true
   config:
     php: lando.php.ini
