@@ -20,6 +20,7 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - block
+    - block_content
     - contextual
     - file
     - filter
@@ -38,12 +39,15 @@ label: Editor
 weight: 3
 is_admin: null
 permissions:
+  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
   - 'access media overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'administer block content'
+  - 'administer block types'
   - 'administer blocks'
   - 'administer menu'
   - 'administer pathauto'
@@ -84,6 +88,7 @@ permissions:
   - 'delete own audio media'
   - 'delete own biography content'
   - 'delete own document media'
+  - 'delete own files'
   - 'delete own hero_sliders content'
   - 'delete own image media'
   - 'delete own landing_page content'
