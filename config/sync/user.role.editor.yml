@@ -29,7 +29,6 @@ dependencies:
     - paragraphs
     - path
     - pathauto
-    - quickedit
     - search
     - system
     - taxonomy
@@ -42,7 +41,6 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
-  - 'access in-place editing'
   - 'access media overview'
   - 'access taxonomy overview'
   - 'access toolbar'

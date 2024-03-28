@@ -1,17 +1,17 @@
-uuid: f3e912c6-0fc0-42e6-b811-69c18bc3596a
+uuid: a14004f4-411f-4b83-81df-ea504c6b5f7f
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - bartik
+    - claro
 _core:
-  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: bartik_help
-theme: bartik
-region: content
-weight: -30
+  default_config_hash: jccFSSVqV0WCDb6NtML1VWAWTtDbZ-zn5YgTRMgMrIM
+id: claro_help
+theme: claro
+region: help
+weight: 0
 provider: null
 plugin: help_block
 settings:
