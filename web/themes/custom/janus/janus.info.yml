@@ -1,7 +1,7 @@
 name: Janus
 type: theme
 description: 'Janus Custom GT Subtheme'
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9 || ^10
 base theme: gt
 
 regions:
