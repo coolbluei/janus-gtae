@@ -14,6 +14,21 @@ body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .
 body #gt-page-title h1.js-quickedit-page-title.page-title {
   color: #404040 !important; }
 
+.main-container a, .main-container a.link {
+  text-decoration: underline; }
+
+.field--name-field-detail-page-link a {
+  background: var(--gt-gold);
+  border: 0 transparent;
+  border-radius: 2px;
+  color: var(--gt-black);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: .5em .75em;
+  text-decoration: none; }
+  .field--name-field-detail-page-link a:hover {
+    background: var(--gt-tech-light-gold); }
+
 body #gt-logo {
   height: 1.625rem;
   margin: 0.7rem 0; }
