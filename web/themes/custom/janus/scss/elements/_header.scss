@@ -21,7 +21,7 @@ body #gt-logo {
   }
   .site-name {
     font-size: 4em;
-    color: $light_title;
+    color: $light_title !important;
   }
   .site-subname {
     font-size: 1.5em;
