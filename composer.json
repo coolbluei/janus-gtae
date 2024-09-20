@@ -43,6 +43,7 @@
         "drupal/flexslider": "^3.0@alpha",
         "drupal/link_attributes": "^1.11",
         "drupal/link_target": "^1.2",
+        "drupal/masonry_views": "^4.0",
         "drupal/menu_link_attributes": "^1.2",
         "drupal/paragraphs": "^1.12",
         "drupal/pathauto": "^1.8",
