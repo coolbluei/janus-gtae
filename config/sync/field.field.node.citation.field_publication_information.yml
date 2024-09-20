@@ -1,0 +1,19 @@
+uuid: 83f52aae-4cd3-4234-83b4-c1f5d6aec9ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication_information
+    - node.type.citation
+id: node.citation.field_publication_information
+field_name: field_publication_information
+entity_type: node
+bundle: citation
+label: 'Publication Information'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

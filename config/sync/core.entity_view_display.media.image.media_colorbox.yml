@@ -18,17 +18,17 @@ bundle: image
 mode: media_colorbox
 content:
   field_media_image:
+    type: colorbox
     label: visually_hidden
     settings:
-      colorbox_node_style: media_gallery_image
-      colorbox_node_style_first: ''
       colorbox_image_style: ''
       colorbox_gallery: page
       colorbox_gallery_custom: ''
       colorbox_caption: auto
       colorbox_caption_custom: ''
+      colorbox_node_style: media_gallery_image
+      colorbox_node_style_first: ''
     third_party_settings: {  }
-    type: colorbox
     weight: 1
     region: content
 hidden:

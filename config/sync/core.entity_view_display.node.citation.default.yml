@@ -1,0 +1,79 @@
+uuid: d879f7a9-5e97-48b8-a5f3-eb3d4faa4fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.citation.body
+    - field.field.node.citation.field_authors
+    - field.field.node.citation.field_external_link
+    - field.field.node.citation.field_local_file
+    - field.field.node.citation.field_publication_information
+    - field.field.node.citation.field_publication_type
+    - node.type.citation
+  module:
+    - link
+    - text
+    - user
+id: node.citation.default
+targetEntityType: node
+bundle: citation
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_authors:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_external_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_local_file:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_publication_information:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_publication_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

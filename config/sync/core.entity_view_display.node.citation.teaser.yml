@@ -1,0 +1,40 @@
+uuid: 11d7c405-a8b3-4756-908a-3aedf7a64e05
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.citation.body
+    - field.field.node.citation.field_authors
+    - field.field.node.citation.field_external_link
+    - field.field.node.citation.field_local_file
+    - field.field.node.citation.field_publication_information
+    - field.field.node.citation.field_publication_type
+    - node.type.citation
+  module:
+    - text
+    - user
+id: node.citation.teaser
+targetEntityType: node
+bundle: citation
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_authors: true
+  field_external_link: true
+  field_local_file: true
+  field_publication_information: true
+  field_publication_type: true

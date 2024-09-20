@@ -1,0 +1,23 @@
+uuid: 71aa5328-9d0d-4b3f-b5d8-29c7237f0c07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_external_link
+    - node.type.citation
+  module:
+    - link
+id: node.citation.field_external_link
+field_name: field_external_link
+entity_type: node
+bundle: citation
+label: 'External Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link
