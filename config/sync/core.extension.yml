@@ -37,6 +37,7 @@ module:
   link_target: 0
   masonry: 0
   media: 0
+  media_bulk_upload: 0
   media_gallery: 0
   media_library: 0
   menu_link_attributes: 0

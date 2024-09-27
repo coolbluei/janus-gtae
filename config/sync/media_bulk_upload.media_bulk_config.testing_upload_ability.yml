@@ -1,0 +1,16 @@
+uuid: 056e1ed0-b76a-4b34-b800-5cb6c64b409f
+langcode: en
+status: true
+dependencies: {  }
+id: testing_upload_ability
+label: 'Testing Upload Ability'
+media_types:
+  document: document
+  image: image
+  audio: 0
+  remote_video: 0
+  video: 0
+form_mode: default
+upload_location: 'temporary://'
+show_alt: null
+show_title: null
