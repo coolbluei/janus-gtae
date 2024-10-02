@@ -320,7 +320,16 @@ class SafeFieldGetter {
     $file = SafeFieldGetter::firstReference($raw_field, 'field_media_image');
     return SafeFieldGetter::getUrlFromFile($file, $style_string);
   }
-
+  public static function getUrlFromMediaDocument(FieldableEntityInterface $entity, $field_name, $style_string = '') {
+    $raw_field = SafeFieldGetter::firstReference($entity, $field_name);
+    if (empty($raw_field)) {
+      return NULL;
+    }
+    // @todo Use the raw_field if its an image.  Reach deeper if its a media reference.
+    /** @var \Drupal\file\Entity\File $file */
+    $file = SafeFieldGetter::firstReference($raw_field, 'field_media_document');
+    return $file->createFileUrl();
+  }
   public static function getUrlFromFile(File $file, $style_string = '') {
     if (!empty($style_string)) {
       /** @var \Drupal\image\ImageStyleInterface $style */

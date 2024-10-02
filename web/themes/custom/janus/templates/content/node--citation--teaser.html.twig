@@ -1,0 +1,12 @@
+<span {{ attributes }}>
+  {{ content.field_authors }},
+    <strong{{ title_attributes }}>
+      {% if citation_link %}
+      <a href="{{ citation_link }}">"{{ label }}"</a>
+      {% else %}
+        "{{ label }}"
+      {% endif %}
+    </strong>,
+  {{ content.field_publication_information }}
+  {{ title_suffix }}
+</span>

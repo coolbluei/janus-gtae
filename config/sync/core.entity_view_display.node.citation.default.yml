@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.citation.field_local_file
     - field.field.node.citation.field_publication_information
     - field.field.node.citation.field_publication_type
+    - field.field.node.citation.field_sort_date
     - node.type.citation
   module:
     - link
@@ -70,6 +71,14 @@ content:
       link: true
     third_party_settings: {  }
     weight: 106
+    region: content
+  field_sort_date:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
     region: content
   links:
     settings: {  }

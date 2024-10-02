@@ -1,0 +1,19 @@
+uuid: dc28457c-85fb-4aad-8fe0-747dec92b1a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sort_date
+    - node.type.citation
+id: node.citation.field_sort_date
+field_name: field_sort_date
+entity_type: node
+bundle: citation
+label: 'Sort Date'
+description: 'Convention is to use Year/Month/Day . e.g.  2024/12/01'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
