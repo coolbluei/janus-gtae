@@ -35,7 +35,6 @@ module:
   link: 0
   link_attributes: 0
   link_target: 0
-  masonry: 0
   media: 0
   media_bulk_upload: 0
   media_gallery: 0
@@ -69,7 +68,6 @@ module:
   video_embed_field: 0
   views_ui: 0
   pathauto: 1
-  masonry_views: 2
   externalauth: 10
   views: 10
   paragraphs: 11
