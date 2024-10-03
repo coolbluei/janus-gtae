@@ -1,12 +1,12 @@
 <span {{ attributes }}>
-  {{ content.field_authors }},
+  {{ content.field_authors }}
     <strong{{ title_attributes }}>
       {% if citation_link %}
-      <a href="{{ citation_link }}">"{{ label }}"</a>
+        <a href="{{ citation_link }}" target="_blank"><span>"{{ label }}",</span></a>
       {% else %}
-        "{{ label }}"
+        <span>"{{ label }}",</span>
       {% endif %}
-    </strong>,
+    </strong>
   {{ content.field_publication_information }}
   {{ title_suffix }}
 </span>
