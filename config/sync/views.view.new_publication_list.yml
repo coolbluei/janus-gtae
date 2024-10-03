@@ -10,8 +10,7 @@ dependencies:
     - node.type.citation
     - taxonomy.vocabulary.publication_type
   content:
-    - 'taxonomy_term:publication_type:e47375a3-b808-417d-9233-d8ea97373177'
-    - 'taxonomy_term:publication_type:f1a37d68-d7db-4892-82f2-64709a8f1139'
+    - 'taxonomy_term:personal_grouping:e8d3401d-b647-4621-90de-67a2c47b3d8d'
   module:
     - node
     - taxonomy
