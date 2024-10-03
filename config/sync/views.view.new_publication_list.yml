@@ -10,7 +10,8 @@ dependencies:
     - node.type.citation
     - taxonomy.vocabulary.publication_type
   content:
-    - 'taxonomy_term:personal_grouping:e8d3401d-b647-4621-90de-67a2c47b3d8d'
+    - 'taxonomy_term:publication_type:a2e0f040-9d07-4262-9d6d-e6bf1261c303'
+    - 'taxonomy_term:publication_type:eb3af260-06bd-4fee-883f-5f7aa102b2bb'
   module:
     - node
     - taxonomy
@@ -533,7 +534,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            - 15
+            - 16
           group: 1
           exposed: false
           expose:
@@ -630,7 +631,7 @@ display:
           plugin_id: taxonomy_index_tid
           operator: or
           value:
-            16: 16
+            17: 17
           group: 1
           exposed: false
           expose:

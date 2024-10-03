@@ -1,3 +1,7 @@
 .view-gallery .views-row {
   margin-bottom: 10px;
 }
+
+.view-new-publication-list .views-row {
+  margin: 1em 0;
+}
