@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.citation.field_publication_information
     - field.field.node.citation.field_publication_type
     - field.field.node.citation.field_sort_date
+    - field.field.node.citation.field_status
     - node.type.citation
   module:
     - link
@@ -60,4 +61,5 @@ hidden:
   body: true
   field_publication_type: true
   field_sort_date: true
+  field_status: true
   links: true

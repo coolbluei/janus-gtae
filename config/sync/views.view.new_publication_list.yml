@@ -4,9 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.storage.node.field_authors
-    - field.storage.node.field_local_file
-    - field.storage.node.field_publication_information
+    - field.storage.node.field_publication_type
+    - field.storage.node.field_status
     - node.type.citation
     - taxonomy.vocabulary.publication_type
   content:
@@ -32,123 +31,10 @@ display:
     display_options:
       title: 'Publication List'
       fields:
-        counter:
-          id: counter
-          table: views
-          field: counter
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: counter
-          label: ''
-          exclude: false
-          alter:
-            alter_text: true
-            text: '{{ counter }}.'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          counter_start: 1
-        field_authors:
-          id: field_authors
-          table: node__field_authors
-          field: field_authors
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: ''
-          exclude: false
-          alter:
-            alter_text: true
-            text: '{{ field_authors }},'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        field_local_file:
-          id: field_local_file
-          table: node__field_local_file
-          field: field_local_file
+        field_publication_type:
+          id: field_publication_type
+          table: node__field_publication_type
+          field: field_publication_type
           relationship: none
           group_type: group
           admin_label: ''
@@ -182,7 +68,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: h3
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -197,7 +83,7 @@ display:
           click_sort_column: target_id
           type: entity_reference_label
           settings:
-            link: true
+            link: false
           group_column: target_id
           group_columns: {  }
           group_rows: true
@@ -208,75 +94,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: title
-          plugin_id: field
-          label: ''
-          exclude: true
-          alter:
-            alter_text: true
-            text: '"{{ title}}",'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: false
-            ellipsis: false
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: strong
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        field_publication_information:
-          id: field_publication_information
-          table: node__field_publication_information
-          field: field_publication_information
+        field_status:
+          id: field_status
+          table: node__field_status
+          field: field_status
           relationship: none
           group_type: group
           admin_label: ''
@@ -284,8 +105,8 @@ display:
           label: ''
           exclude: false
           alter:
-            alter_text: true
-            text: '{{ field_publication_information }}.'
+            alter_text: false
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -310,7 +131,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
+          element_type: h4
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -322,11 +143,11 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: string
+          click_sort_column: target_id
+          type: entity_reference_label
           settings:
-            link_to_entity: false
-          group_column: value
+            link: false
+          group_column: target_id
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -336,55 +157,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing:
-          id: nothing
-          table: views
-          field: nothing
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: custom
-          label: ''
-          exclude: true
-          alter:
-            alter_text: true
-            text: '{{ counter}}. {{ field_authors }}, "{{ title }}", {{ field_publication_information }}.'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: false
       pager:
         type: mini
         options:
@@ -422,6 +194,21 @@ display:
         options: {  }
       empty: {  }
       sorts:
+        weight:
+          id: weight
+          table: taxonomy_term_field_data
+          field: weight
+          relationship: field_publication_type
+          group_type: group
+          admin_label: ''
+          entity_type: taxonomy_term
+          entity_field: weight
+          plugin_id: standard
+          order: ASC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
         field_sort_date_value:
           id: field_sort_date_value
           table: node__field_sort_date
@@ -458,15 +245,23 @@ display:
           value:
             citation: citation
       style:
-        type: default
+        type: html_list
         options:
           grouping:
             -
               field: field_publication_type
               rendered: true
               rendered_strip: false
+            -
+              field: field_status
+              rendered: true
+              rendered_strip: false
           row_class: ''
           default_row_class: true
+          uses_fields: true
+          type: ol
+          wrapper_class: item-list
+          class: ''
       row:
         type: 'entity:node'
         options:
@@ -480,7 +275,17 @@ display:
           distinct: false
           replica: false
           query_tags: {  }
-      relationships: {  }
+      relationships:
+        field_publication_type:
+          id: field_publication_type
+          table: node__field_publication_type
+          field: field_publication_type
+          relationship: none
+          group_type: group
+          admin_label: 'field_publication_type: Taxonomy term'
+          plugin_id: standard
+          required: false
+      css_class: citation-list-view
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -493,94 +298,17 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_authors'
-        - 'config:field.storage.node.field_local_file'
-        - 'config:field.storage.node.field_publication_information'
-  block_1:
-    id: block_1
-    display_title: 'Journal Pub'
+        - 'config:field.storage.node.field_publication_type'
+        - 'config:field.storage.node.field_status'
+  block_3:
+    id: block_3
+    display_title: 'All Citations'
     display_plugin: block
-    position: 2
+    position: 4
     display_options:
-      title: 'Journal Publications'
-      filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 1
-          expose:
-            operator: ''
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-          value:
-            citation: citation
-        tid:
-          id: tid
-          table: taxonomy_index
-          field: tid
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: taxonomy_index_tid
-          operator: or
-          value:
-            - 16
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          vid: publication_type
-          type: textfield
-          hierarchy: false
-          limit: true
-          error_message: true
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      defaults:
-        title: false
-        filters: false
-        filter_groups: false
       display_description: ''
       display_extenders: {  }
-      block_description: 'Journal Block'
+      block_description: 'All Citations'
     cache_metadata:
       max-age: -1
       contexts:
@@ -590,106 +318,8 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_authors'
-        - 'config:field.storage.node.field_local_file'
-        - 'config:field.storage.node.field_publication_information'
-  block_2:
-    id: block_2
-    display_title: 'Conference Papers'
-    display_plugin: block
-    position: 2
-    display_options:
-      title: 'Conference Papers'
-      filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 1
-          expose:
-            operator: ''
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-          value:
-            citation: citation
-        tid:
-          id: tid
-          table: taxonomy_index
-          field: tid
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: taxonomy_index_tid
-          operator: or
-          value:
-            17: 17
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          vid: publication_type
-          type: select
-          hierarchy: false
-          limit: true
-          error_message: true
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      defaults:
-        title: false
-        filters: false
-        filter_groups: false
-      display_description: ''
-      display_extenders: {  }
-      block_description: 'Conference Block'
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.field_authors'
-        - 'config:field.storage.node.field_local_file'
-        - 'config:field.storage.node.field_publication_information'
+        - 'config:field.storage.node.field_publication_type'
+        - 'config:field.storage.node.field_status'
   page_1:
     id: page_1
     display_title: Page
@@ -707,6 +337,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_authors'
-        - 'config:field.storage.node.field_local_file'
-        - 'config:field.storage.node.field_publication_information'
+        - 'config:field.storage.node.field_publication_type'
+        - 'config:field.storage.node.field_status'

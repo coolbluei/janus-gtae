@@ -1,0 +1,8 @@
+uuid: b873d5cf-cf88-4cf2-b2f0-60fb5041539c
+langcode: en
+status: true
+dependencies: {  }
+id: citation-anchor-menu
+label: 'Citation Anchor Menu'
+description: ''
+locked: false

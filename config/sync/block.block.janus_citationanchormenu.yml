@@ -1,0 +1,29 @@
+uuid: 77d55b7f-0caa-4bd0-865e-2b96e7c763ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.citation-anchor-menu
+  module:
+    - system
+  theme:
+    - janus
+id: janus_citationanchormenu
+theme: janus
+region: after_content
+weight: -5
+provider: null
+plugin: 'system_menu_block:citation-anchor-menu'
+settings:
+  id: 'system_menu_block:citation-anchor-menu'
+  label: 'Citation Anchor Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /publications-new

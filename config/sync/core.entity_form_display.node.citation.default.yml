@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.citation.field_publication_information
     - field.field.node.citation.field_publication_type
     - field.field.node.citation.field_sort_date
+    - field.field.node.citation.field_status
     - node.type.citation
   module:
     - link
@@ -68,6 +69,16 @@ content:
     weight: 26
     region: content
     settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_status:
+    type: entity_reference_autocomplete
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }

@@ -1,0 +1,8 @@
+uuid: 5c0c5402-4aad-46b5-881d-0ff1c0d2bc1e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Citation Status'
+vid: citation_status
+description: ''
+weight: 0
