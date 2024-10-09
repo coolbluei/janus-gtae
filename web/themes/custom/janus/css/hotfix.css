@@ -24,3 +24,29 @@
 .citation-title a:hover, .citation-title a:focus {
   color: #2B94E8;
 }
+.citation-anchor-menu h2 {
+  font-size: 1rem;
+}
+.citation-anchor-menu ul {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+.citation-anchor-menu ul li {
+  text-decoration: none;
+  margin: 0;
+}
+.citation-anchor-menu ul li::marker {
+  content: "";
+}
+.citation-anchor-menu ul li a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid #efefef;
+  margin-right: 1em;
+  text-decoration: none;
+}
+.citation-anchor-menu ul li a:hover {
+  background-color: #efefef;
+}
