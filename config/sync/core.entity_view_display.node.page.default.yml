@@ -61,6 +61,47 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
+          5d46ebcc-26ca-47d4-938c-4cbdef5d6d43:
+            uuid: 5d46ebcc-26ca-47d4-938c-4cbdef5d6d43
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          74acfe47-698f-4db2-9e70-340090be7963:
+            uuid: 74acfe47-698f-4db2-9e70-340090be7963
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 4
+            additional: {  }
+          956daf56-6d82-41f8-996c-813f0285ccc5:
+            uuid: 956daf56-6d82-41f8-996c-813f0285ccc5
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
         third_party_settings: {  }
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
@@ -89,4 +130,5 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  layout_builder__layout: true
